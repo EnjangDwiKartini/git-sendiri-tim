@@ -37,7 +37,7 @@ Git tidaklah sama dengan GitHub, namun GitHub merupakan bagian dari Git. Git ada
 
 Cara kerja git ini memanfaatkan repositori online dan offline, contohnya kita punya folder/directory project di lokal (offline), folder tersebut bisa kita upload ke repositori online yang sudah disediakan banyak pihak, setelah di upload kita bisa meng-clone(istilahnya copas) lalu setelah di clone maka orang  lain bisa mengubah isi file pada project tersebut secara lokal. Jika kita ingin menambah atau mengurangi code yang ada pada file, mereka harus upload ke repository terlebih dahulu, kemudian tim atau teman kita yang  lain  jika ingin mendapatkan update harus mendownload lagi repositorinya, namun file yang di download ini sesuai dengan perubahan yang dilakukan oleh kita.
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "struktur-git")
+![alt text](https://github.com/EnjangDwiKartini/git-sendiri-tim/blob/master/struktur-git.png "struktur-git")
 
 Secara umum caha kerja GIT adalah sebagai berikut :
 * Membuat repository menggunakan Git hosting.
@@ -66,3 +66,9 @@ Model fork & pull memungkinkan siapa pun menggunakan repositori yang ada dan men
 
 ### Shared Repository Models / Model Repositori Bersama 
 Model repositori bersama dapat digunakan untuk  berkolaborasi dalam proyek-proyek pribadi. Setiap orang diberikan akses push ke satu repositori bersama dan cabang topik digunakan untuk mengisolasi perubahan.
+Pada proyek pengembangan software yang melibatkan banyak orang (tim), kita tidak hanya akan menyimpan sendiri repository proyeknya.
+Semua tim yang terlibat dalam pengkodean (coding) akan menyimpan repository lokal di komputernya masing-masing.
+Setelah itu, akan dilakukan penggabungan ke repository inti atau remote.
+Biasanya akan ada repository pusat atau untuk menyimpan source code yang sudah digabungkan (merge) dari beberapa orang.
+
+![alt text](https://github.com/EnjangDwiKartini/git-sendiri-tim/blob/master/git-tim.png "git-tim")
